@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position</title>
+    <style>
+        .header{
+            background-color: blue;
+            height: 50px;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            z-index: 1;
+        }
+        .sidebar{
+            background-color: green;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            top: 50px;
+            width: 80px;
+            color: white;
+        }
+        body{
+            height: 2000px ;
+            padding-left: 100px; 
+            padding-top: 80px;
+        }
+        .absolute{
+            position: absolute;
+            background-color: red;
+            color: white;
+            top: 60px;
+            right: 10px;
+        }
+        .position-relative{
+
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+        header
+    </div>
+    <div class="sidebar">
+        sidebar
+        <div class="absolute">
+            absolute
+        </div>
+        <div style="
+        position:absolute;
+        background-color: red;
+        color: white;
+        right: 30px;
+        top: 40px;
+        ">
+        position absolute
+        </div>
+    </div>
+
+    <div class="absolute">
+        absolute
+    </div>
+
+    <div class="position-relative">
+        position relative
+    </div>
+
+    <div class="position-relative">
+        position relative
+
+        <div class="absolute">
+            absolute
+        </div>
+    </div>
+    <div style="background-color: lightblue; height: 200px; width: 200px;
+    position: static;">
+      div1
+    </div>
+
+
+    <div class="position-relative style="background-color: lightgreen; height: 200px; width: 200px; ">
+        div2
+        <div class="absolute>
+
+        </div>
+      </div>
+  </body>
+</html>

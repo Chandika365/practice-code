@@ -1,0 +1,59 @@
+.tohoma-font{
+    font-family: Tahoma;
+    font-weight: bold;
+}
+.font-arial{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+
+}
+.span{
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    color: red;
+    margin-top: 0;
+}
+.verdana{
+    font-family: verdana;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.sub{
+    font-family: verdana;
+    font-size: 12px;
+    margin-top: 0px;
+    color: rgb(121, 156, 187);
+}
+.description{
+    width: 250px;
+    font-family: verdana;
+    font-size: 14px;
+}
+.get-strted{
+    color: white;
+    background-color: green;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.spannew{
+    color: rgb(33, 35, 199);
+    text-align: center;
+}
+.shopping{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+.subdes{
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,16 @@
+
+body{
+    height: 2000px ;
+    padding-left: 100px; 
+    padding-top: 80px;
+}
+
+.sidebar{
+    background-color: green;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 50px;
+    width: 80px;
+    color: white;
+}
